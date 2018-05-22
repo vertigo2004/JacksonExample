@@ -7,7 +7,7 @@ public class Group {
 
     private String name;
     private Student prefect;
-    private List<Student> students = new ArrayList();
+    private List<Student> students = new ArrayList<>();
 
     public Group() {
     }

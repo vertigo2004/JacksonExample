@@ -5,13 +5,13 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.time.LocalDate;
 
-//@JsonInclude(JsonInclude.Include.NON_NULL)
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Student {
     private String firstname;
     private String lastname;
     private LocalDate dob;
     private double averageScore;
-//    @JsonIgnore
+    @JsonIgnore
     private String notes;
 
     public Student() {
